@@ -8,3 +8,6 @@ Resources:
     Properties:
       ImageId: ami-0f5ee92e2d63afc18
       InstanceType: t2.micro
+      KeyName: trm-1
+      SecurityGroups:
+        - default
