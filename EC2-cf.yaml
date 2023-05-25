@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+description: ec2 creation 
+
+
+  Resources:
+    DevEc2:
+      Type: AWS::EC2::Instance
+      Properties:
+        ImageId: ami-0607784b46cbe5816
+        InstanceType: t2.micro
+        
